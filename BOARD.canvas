@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"346371410200d7b8","type":"text","text":"MEMORY","x":-160,"y":80,"width":137,"height":50},
+		{"id":"f58b990f3363f940","type":"text","text":"POINTERS","x":-160,"y":-80,"width":137,"height":50},
+		{"id":"65473461bbbc8a7f","type":"text","text":"C  ","x":-360,"y":270,"width":60,"height":60},
+		{"id":"c2305f113f97eeeb","type":"text","text":"ALLOCATION","x":94,"y":80,"width":166,"height":50},
+		{"id":"7f5ee4a3cda4d978","type":"file","file":"Manual Memory Allocation.md","x":560,"y":-95,"width":400,"height":400},
+		{"id":"6449bc95f55857e3","type":"text","text":"TYPES","x":-700,"y":80,"width":160,"height":50},
+		{"id":"5ee26d4e2f433dfe","type":"file","file":"typedef in Practice.md","x":-1440,"y":-95,"width":400,"height":400},
+		{"id":"9fe5c1c20943c67b","type":"file","file":"void Pointers.md","x":-820,"y":-455,"width":400,"height":400},
+		{"id":"411bca7bc187f8ce","type":"file","file":"Pointer Arithmetic.md","x":60,"y":-400,"width":400,"height":400},
+		{"id":"935d0fa1a5a4beeb","type":"file","file":"About Types in C.md","x":-820,"y":480,"width":400,"height":400},
+		{"id":"cbfacdbe32fa1399","type":"file","file":"Conversions.md","x":-1440,"y":480,"width":400,"height":400},
+		{"id":"adddbcbde6902d00","x":-820,"y":1040,"width":400,"height":400,"type":"file","file":"Qualifiers and Specifiers.md"}
+	],
+	"edges":[
+		{"id":"706bd9ebd4fb0667","fromNode":"346371410200d7b8","fromSide":"top","toNode":"f58b990f3363f940","toSide":"bottom"},
+		{"id":"fe726b2ef2691db7","fromNode":"f58b990f3363f940","fromSide":"left","toNode":"9fe5c1c20943c67b","toSide":"right"},
+		{"id":"4e9bd59893472494","fromNode":"f58b990f3363f940","fromSide":"top","toNode":"411bca7bc187f8ce","toSide":"left"},
+		{"id":"34d9468e40967760","fromNode":"65473461bbbc8a7f","fromSide":"right","toNode":"346371410200d7b8","toSide":"bottom"},
+		{"id":"1d061e3a0c62655a","fromNode":"346371410200d7b8","fromSide":"right","toNode":"c2305f113f97eeeb","toSide":"left"},
+		{"id":"df0231ca658126fb","fromNode":"c2305f113f97eeeb","fromSide":"right","toNode":"7f5ee4a3cda4d978","toSide":"left"},
+		{"id":"8f2b9ad850467469","fromNode":"65473461bbbc8a7f","fromSide":"top","toNode":"6449bc95f55857e3","toSide":"right"},
+		{"id":"dd587cd7e92d8174","fromNode":"6449bc95f55857e3","fromSide":"left","toNode":"5ee26d4e2f433dfe","toSide":"right"},
+		{"id":"b1460cfcce96d317","fromNode":"6449bc95f55857e3","fromSide":"top","toNode":"9fe5c1c20943c67b","toSide":"bottom"},
+		{"id":"fbd5b1d4914f194a","fromNode":"6449bc95f55857e3","fromSide":"bottom","toNode":"935d0fa1a5a4beeb","toSide":"top"},
+		{"id":"d9e7b0212d806630","fromNode":"935d0fa1a5a4beeb","fromSide":"left","toNode":"cbfacdbe32fa1399","toSide":"right"},
+		{"id":"4c6144efffaea7fd","fromNode":"935d0fa1a5a4beeb","fromSide":"bottom","toNode":"adddbcbde6902d00","toSide":"top"}
+	]
+}
