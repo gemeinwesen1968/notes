@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) { // array of strings
 	// ...
 }
 ```
-- argv being a pointer means that you can apply [[Pointer Arithmetic]]to it
+- argv being a pointer means that you can apply [[Pointer Arithmetic]] to it
 - You can modify argc, argv, or any of the strings that argv points to. Do not make those strs longer than they already are. (Just dont modify?)
 
 # Exit Status
