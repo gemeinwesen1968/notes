@@ -112,5 +112,20 @@ This directive causes the compiler to error out as soon as it sees it. This is u
 	#error Can not compile!
 #endif
 ```
+## The \#pragma Directive
+An example of using \#pragma to cause the compiler to execute a for loop in parallel with multiple threads (if the compiler supports the OpenMP extension): 
+```c
+#pragma omp parallel for
+for (int i = 0; i < 10; i++) { ... }
+```
+There are some standard pragmas, and these start with STDC:
+```c 
+#pragma STDC pragma_name on-off
+```
+The on-off can be either ON, OF, or DEFAULT.
+The pragma_name can be one of these: 
+- FP_CONTACT
+- FENV_ACCESS
+- CX_LIMITED_RANGE: SET TO ON TO ALLOW THE COMPILER TO SKIP OVERFLOW CHECKS WHEN PERFORMING COMPLEX ARITHMETIC
 
 #c 
