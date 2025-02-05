@@ -102,4 +102,4 @@ char *readline(FILE *fp) {
 ```
 
 
-#c 
+#c #memory 
