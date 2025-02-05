@@ -1,0 +1,1 @@
+Notes on C are from Beej's C guide, for now.
